@@ -1,5 +1,5 @@
 <h2>Edit your Picture</h2>
-
+<%= link_to "Delete Picture", picture_path(@picture), method: :delete, data: {confirm: 'Are you sure?'} %>
 <p>
 <%= link_to "Back to Pictures", pictures_path %>
 </p>
