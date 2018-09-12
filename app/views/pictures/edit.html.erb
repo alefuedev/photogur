@@ -1,5 +1,8 @@
 <h2>Edit your Picture</h2>
 
+<p>
+<%= link_to "Back to Pictures", pictures_path %>
+</p>
 <%= form_for(@picture) do |f| %>
 	 <p>
     <%= f.label :artist %><br>
