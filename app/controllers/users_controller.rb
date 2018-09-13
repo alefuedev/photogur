@@ -7,11 +7,11 @@ class UsersController < ApplicationController
 		@user = User.new
 		@user.nickname = params[:user][:nickname]
 		@user.password = params[:user][:password]
-		@user.password = params[:user][:password_confirmation]
+		@user.password_confirmation = params[:user][:password_confirmation]
 		if @user.save
 			redirect_to pictures_path
 		else
-			render :form
+			render :new
 		end
   end
 
