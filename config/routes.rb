@@ -1,6 +1,5 @@
 Rails.application.routes.draw do
-  get 'users/new'
+	resources :users, only:[:new, :create, :destroy]	
 	resources :pictures
-	resources :users
 end
 
