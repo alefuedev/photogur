@@ -1,7 +1,9 @@
 <h1>Pictures</h1>
 
-<% @most_recent_pictures.each do |picture| %>
+<% @pictures_last.each do |picture| %>
 	<p><%= picture.title %></p>
   <p><%= picture.artist %></p>			
 	<img src="<%= picture.url %>", alt="<%= picture.title %>">
 <% end %>
+
+
