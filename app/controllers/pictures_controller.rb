@@ -1,4 +1,6 @@
 class PicturesController < ApplicationController
+	before_action :ensured_logged_in, except: [:show, :index]
+		
   def index
 		@pictures_last = Picture.newest_first
   end
