@@ -6,6 +6,7 @@ class Picture < ApplicationRecord
 	validates :artist, length: { maximum: 20 }
 	validates :url, presence: true	
 	validates :url, uniqueness: true
+	validates :url, url: true	
 
 	def self.newest_first
 		Picture.order("created_at DESC")
