@@ -2,11 +2,29 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
-form {
-  text-align: center;
+.login {
   color: white;
+  text-align: center;
+  margin: .5em;
+  font-size: 2em;
+}
+ 
+.form_login { 
+	border: 5px solid white;
+	border-radius: 25px;
+	text-align: center;
+	color: white;
+	margin: 0 500px 0 500px;
+	padding: 15px 0 0 0;
 }
 
-.field {
-  font-size: 1em;
+.button {
+  margin-bottom: 15px;
+	margin-top: 15px;
 }
+
+.button:hover {
+  background-color: #3e8e41;
+	color: white;
+}
+
