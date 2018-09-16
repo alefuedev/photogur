@@ -1,3 +1,28 @@
 // Place all the styles related to the Users controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+
+.register {
+	color: white;
+	text-align: center;
+	margin: .5em;
+	font-size: 2em;
+}
+
+
+.new_user {
+	border: 5px solid white;
+  border-radius: 25px;
+	text-align: center;
+	margin: 0 230px 0 230px;
+}
+
+.button {
+	margin-bottom: 15px;
+	margin-top: 15px;
+}
+
+.button:hover {
+	background-color: #3e8e41;
+  color: white;
+}

@@ -1,9 +1,9 @@
-<h1>Pictures</h1>
+	<h1>Pictures</h1>
 
 <% @pictures_last.each do |picture| %>
-	<p><%= picture.title %></p>
-  <p><%= picture.artist %></p>			
-	<img src="<%= picture.url %>", alt="<%= picture.title %>">
+	<div class="single-pic">
+		<p class="title"><%= picture.title %></p>
+		<img src="<%= picture.url %>", alt="<%= picture.title %>" class="picture">
+		<p class="artist"><%= picture.artist %></p>
+	</div>
 <% end %>
-
-
