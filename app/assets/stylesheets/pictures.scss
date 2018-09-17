@@ -2,6 +2,8 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
+@import url('https://fonts.googleapis.com/css?family=Pacifico');
+
 h1 {
   color: white;
   text-align: center;
@@ -27,3 +29,24 @@ h1 {
 .picture {
   border: 4px solid #f7f7f7;
 }
+
+.add-new-pic {
+	color: white;
+	font-size: 2em;
+	font-family: 'Pacifico', cursive;
+}
+
+.new_picture {
+	font-size: 1em;
+	text-align: center;
+  color: white;
+	border: 5px solid white;
+	border-radius: 25px;
+  margin: 5px 500px 0 500px;	
+}
+
+.title-new-pic {
+	font-size: 2em;
+  font-family: 'Pacifico', cursive;
+}
+

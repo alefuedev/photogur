@@ -1,4 +1,4 @@
-<h1>Add a new Picture</h1>
+<h1 class="title-new-pic">Add a new Picture</h1>
 <% if @picture.errors.any? %>
   <div id="error_explanation">
     <h2><%= pluralize(@picture.errors.count, "error") %> prohibited this article from being saved:</h2>
@@ -23,7 +23,7 @@
 	<%= f.label :url %><br>
 	<%= f.text_field :url %>
 	</p>
-	<%= f.submit %>
+	<%= f.submit "Save Image", class: 'button' %>
 <% end %>
 
 

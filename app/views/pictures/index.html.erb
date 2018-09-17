@@ -3,5 +3,8 @@
 		<p class="title"><%= picture.title %></p>
 		<img src="<%= picture.url %>", alt="<%= picture.title %>" class="picture">
 		<p class="artist"><%= picture.artist %></p>
-	</div>
+		<% if current_user %>
+			<%= link_to "Add a new Picture", new_picture_path, class: "add-new-pic" %>
+		<% end %>
+	<div>
 <% end %>
