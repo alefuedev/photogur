@@ -42,7 +42,7 @@ h1 {
   color: white;
 	border: 5px solid white;
 	border-radius: 25px;
-  margin: 5px 500px 0 500px;	
+  margin: 5px 500px 0 500px;
 }
 
 .title-new-pic {
@@ -50,7 +50,7 @@ h1 {
   font-family: 'Pacifico', cursive;
 }
 
-#error_explanation {
+.error_explanation {
 	background-color: #FF4081;
 	color: white;
 	margin-top: -20px;
@@ -58,4 +58,3 @@ h1 {
 	font-family: 'Pacifico', cursive;
 	font-size: 1em;
 }
-
