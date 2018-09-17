@@ -1,4 +1,3 @@
-<h1 class="title-new-pic">Add a new Picture</h1>
 <% if @picture.errors.any? %>
   <div id="error_explanation">
     <h2><%= pluralize(@picture.errors.count, "error") %> prohibited this article from being saved:</h2>
@@ -10,6 +9,7 @@
   </div>
 <% end %>
 
+<h1 class="title-new-pic">Add a new Picture</h1>
 <%= form_for(@picture) do |f| %>
 	<p>
 	<%= f.label :artist %><br>
