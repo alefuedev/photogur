@@ -1,7 +1,7 @@
 <% @pictures_last.each do |picture| %>
 	<div class="single-pic">
 		<p class="title"><%= picture.title %></p>
-		<img src="<%= picture.url %>", alt="<%= picture.title %>" class="picture">
+		<a href="<%= picture_path(picture) %>"><img src="<%= picture.url %>", alt="<%= picture.title %>" class="picture"></a>
 		<p class="artist"><%= picture.artist %></p>
 		<% if current_user %>
 			<%= link_to "Add a new Picture", new_picture_path, class: "add-new-pic" %>
