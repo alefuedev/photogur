@@ -1,4 +1,8 @@
-<%= link_to "Back to Pictures", pictures_path %>| <%= link_to "Edit this Picture", edit_picture_path(@picture) %>
-<h3><%= @picture.title %></h3>
-<p><%= @picture.artist %></p>
-<img src="<%= @picture.url %>" alt="<%= @picture.title %>">
+<div class="links">
+  <%= link_to "Back to Pictures", pictures_path %>| <%= link_to "Edit this Picture", edit_picture_path(@picture) %>
+</div>
+<div class="single-pic">
+  <h3 class="title"><%= @picture.title %></h3>
+  <img src="<%= @picture.url %>" alt="<%= @picture.title %>", class="picture">
+  <p class="artist"><%= @picture.artist %></p>
+</div>
