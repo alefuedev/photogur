@@ -62,8 +62,25 @@ h1 {
 .links {
   text-align: center;
   font-size: 1.5em;
-  
 }
+
 .links a {
   color: white;
+}
+
+.edit_picture {
+	font-size: 1em;
+	text-align: center;
+  color: white;
+	border: 5px solid white;
+	border-radius: 25px;
+  margin: 5px 500px 20px 500px;
+
+}
+
+.edit-picture {
+  color: white;
+  text-align: center;
+  font-size: 2em;
+  margin-bottom: 1em;
 }
