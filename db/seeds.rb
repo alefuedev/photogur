@@ -12,16 +12,11 @@ User.create(
 	password: "1"
 )
 
-User.create(
-	nickname: "Beta",
-	password: "1"
-)
-
 Picture.create(
   title:  'The old church',
   artist: 'Sergey Ershov',
   url:    'http://bitmakerlabs.s3.amazonaws.com/photogur/house.jpg',
-	user_id: 2 
+	user_id: 2
 )
 
 Picture.create(
