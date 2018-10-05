@@ -11,6 +11,7 @@
   <body>
     <nav>
     <%= link_to "Photogur" , pictures_path, class: "photogur" %>
+    <%= link_to "about", pages_about_path %>
     <p class="userinfo">
       <% if current_user %>
         Signed in as <%= current_user.nickname %>. <%= link_to "Log out", session_path("current"), :method => :delete %>
