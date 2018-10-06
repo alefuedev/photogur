@@ -83,3 +83,4 @@ production:
   database: photogur_production
   username: photogur
   password: <%= ENV['PHOTOGUR_DATABASE_PASSWORD'] %>
+  host: localhost
