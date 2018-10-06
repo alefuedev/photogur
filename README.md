@@ -3,7 +3,7 @@
 This website was created as an exercise to understand how Ruby on Rails works,it is not meant to be
 a real site.
 
-##Tasks to acomplish.
+## Tasks to acomplish.
 
 + Create user model.
 + Create Picture model.
