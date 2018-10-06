@@ -1,24 +1,12 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This website was created as an exercise to understand how Ruby on Rails works,it is not meant to be
+a real site.
 
-Things you may want to cover:
+##Tasks to acomplish.
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
++ Create user model.
++ Create Picture model.
++ Add bcrypt to user.
++ Add relationship between user and Picture.</li>
++ Upload to site.
